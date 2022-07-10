@@ -14,7 +14,6 @@ shared_scripts {
 
 client_scripts {
     'client/main.lua',
-    'client/clothing.lua',
     'client/trunk.lua',
     'client/stretcher.lua'
 }
