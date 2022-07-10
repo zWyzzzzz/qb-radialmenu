@@ -171,55 +171,34 @@ Config.MenuItems = {
                 icon = 'shirt',
                 items = {
                     {
-                        id = 'Hair',
-                        title = 'Hair',
-                        icon = 'user',
-                        type = 'client',
-                        event = 'qb-radialmenu:ToggleClothing',
-                        shouldClose = true
-                    }, {
-                        id = 'Ear',
-                        title = 'Ear Piece',
-                        icon = 'ear-deaf',
-                        type = 'client',
-                        event = 'qb-radialmenu:ToggleProps',
-                        shouldClose = true
-                    }, {
-                        id = 'Neck',
-                        title = 'Neck',
-                        icon = 'user-tie',
-                        type = 'client',
-                        event = 'qb-radialmenu:ToggleClothing',
-                        shouldClose = true
-                    }, {
-                        id = 'Top',
-                        title = 'Top',
-                        icon = 'shirt',
-                        type = 'client',
-                        event = 'qb-radialmenu:ToggleClothing',
-                        shouldClose = true
-                    }, {
-                        id = 'Shirt',
-                        title = 'Shirt',
-                        icon = 'shirt',
-                        type = 'client',
-                        event = 'qb-radialmenu:ToggleClothing',
-                        shouldClose = true
-                    }, {
-                        id = 'Pants',
-                        title = 'Pants',
-                        icon = 'user',
-                        type = 'client',
-                        event = 'qb-radialmenu:ToggleClothing',
-                        shouldClose = true
-                    }, {
-                        id = 'Shoes',
-                        title = 'Shoes',
-                        icon = 'shoe-prints',
-                        type = 'client',
-                        event = 'qb-radialmenu:ToggleClothing',
-                        shouldClose = true
-                    }, {
+                       id = 'Shirt',
+                       title = 'Shirt',
+                       icon = 'shirt',
+                       type = 'client',
+                       event = 'TIBAS-clothing-system:TibasClothing',
+                       shouldClose = true
+                   }, {
+                       id = 'Pants',
+                       title = 'Pants',
+                       icon = 'user',
+                       type = 'client',
+                       event = 'TIBAS-clothing-system:TibasClothing',
+                       shouldClose = true
+                   }, {
+                       id = 'Shoes',
+                       title = 'Shoes',
+                       icon = 'shoe-prints',
+                       type = 'client',
+                       event = 'TIBAS-clothing-system:TibasClothing',
+                       shouldClose = true
+                   },{
+                       id = 'Vest',
+                       title = 'Vest',
+                       icon = 'vest',
+                       type = 'client',
+                       event = 'TIBAS-clothing-system:TibasClothing',
+                       shouldClose = true
+                   }, {
                         id = 'meer',
                         title = 'Extras',
                         icon = 'plus',
@@ -229,63 +208,63 @@ Config.MenuItems = {
                                 title = 'Hat',
                                 icon = 'hat-cowboy-side',
                                 type = 'client',
-                                event = 'qb-radialmenu:ToggleProps',
+                                event = 'TIBAS-clothing-system:TibasProps',
                                 shouldClose = true
                             }, {
                                 id = 'Glasses',
                                 title = 'Glasses',
                                 icon = 'glasses',
                                 type = 'client',
-                                event = 'qb-radialmenu:ToggleProps',
+                                event = 'TIBAS-clothing-system:TibasProps',
                                 shouldClose = true
-                            }, {
-                                id = 'Visor',
-                                title = 'Visor',
-                                icon = 'hat-cowboy-side',
-                                type = 'client',
-                                event = 'qb-radialmenu:ToggleProps',
-                                shouldClose = true
-                            }, {
+                            },  {
                                 id = 'Mask',
                                 title = 'Mask',
-                                icon = 'theater-masks',
+                                icon = 'masks-theater',
                                 type = 'client',
-                                event = 'qb-radialmenu:ToggleClothing',
+                                event = 'TIBAS-clothing-system:TibasClothing',
                                 shouldClose = true
-                            }, {
-                                id = 'Vest',
-                                title = 'Vest',
-                                icon = 'vest',
-                                type = 'client',
-                                event = 'qb-radialmenu:ToggleClothing',
-                                shouldClose = true
-                            }, {
+                            },  {
                                 id = 'Bag',
                                 title = 'Bag',
-                                icon = 'shopping-bag',
+                                icon = 'bag-shopping',
                                 type = 'client',
-                                event = 'qb-radialmenu:ToggleClothing',
+                                event = 'TIBAS-clothing-system:TibasClothing',
                                 shouldClose = true
-                            }, {
+                            },{
+                                id = 'Bagoff',
+                                title = 'Bagoff',
+                                icon = 'bag-shopping',
+                                type = 'client',
+                                event = 'TIBAS-clothing-system:TibasClothing',
+                                shouldClose = true
+                            },  {
                                 id = 'Bracelet',
                                 title = 'Bracelet',
                                 icon = 'user',
                                 type = 'client',
-                                event = 'qb-radialmenu:ToggleProps',
+                                event = 'TIBAS-clothing-system:TibasProps',
                                 shouldClose = true
                             }, {
                                 id = 'Watch',
                                 title = 'Watch',
                                 icon = 'stopwatch',
                                 type = 'client',
-                                event = 'qb-radialmenu:ToggleProps',
+                                event = 'TIBAS-clothing-system:TibasProps',
+                                shouldClose = true
+                            },{
+                                id = 'Ear',
+                                title = 'Ear Piece',
+                                icon = 'ear-deaf',
+                                type = 'client',
+                                event = 'TIBAS-clothing-system:TibasProps',
                                 shouldClose = true
                             }, {
-                                id = 'Gloves',
-                                title = 'Gloves',
-                                icon = 'mitten',
+                                id = 'Neck',
+                                title = 'Neck',
+                                icon = 'user-tie',
                                 type = 'client',
-                                event = 'qb-radialmenu:ToggleClothing',
+                                event = 'TIBAS-clothing-system:TibasClothing',
                                 shouldClose = true
                             }
                         }
